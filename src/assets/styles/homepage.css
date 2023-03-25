@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+body {
+   font-family: 'Montserrat Alternates', sans-serif;
+   background-color: #453c67;
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   height: 80vh;
+}
+
+/* style for logo image */
+.image-logo {
+   width: 100%;
+   max-width: 300px;
+   text-align: start;
+}
+.image-logo a {
+   width: 100%;
+   max-width: 300px;
+   text-align: start;
+   font-size: 1.5em;
+   font-weight: 900;
+   font-style: italic;
+}
+.image-logo span {
+   color: rgb(130, 64, 64);
+}
+
+/* styles for nav bar */
+#nav-bar {
+   align-items: center;
+   display: flex;
+   justify-content: end;
+   max-width: 25rem;
+   width: 100%;
+}
+
+.nav-bar__list {
+   column-gap: 1.2rem;
+   display: flex;
+   list-style: none;
+}
+
+.nav-bar__link {
+   line-height: 1.5rem;
+   padding: 10px;
+   color: rgb(130, 64, 64);
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+
+.nav-bar__list--after {
+   display: block;
+   height: 10px;
+   width: 2.5rem;
+   position: relative;
+   border-bottom: 4px solid rebeccapurple;
+   border-radius: 5px;
+   top: 0.6rem;
+   left: -19rem;
+   transition: 0.5s;
+   
+}
+
+.magic-line-left {
+   width: 2.5rem;
+   left: -19rem;
+}
+.magic-line-left1 {
+   width: 3rem;
+   left: -13rem;
+}
+
+.magic-line-left2 {
+   width: 4rem;
+   left: -6rem;
+}
+
+h1.heading {
+   font-size: 3rem;
+   color: #f2b311;
+   font-weight: 900;
+   text-align: center;
+   margin-top: -5rem;
+   padding-bottom: 2rem;
+}
+
+.about {
+   font-size: 1.5rem;
+   color: #e3e3e3;
+   line-height: 3rem;
+}
+

@@ -1,19 +1,20 @@
 <template>
    <div class="counter">
-      <h1>Counter</h1>
+      <h1>Counter App</h1>
       <p>{{ counter }}</p>
-      <div>
-         <button @click="increment">+</button>
-         <button @click="decrement">-</button>
-         <button @click="reset">Reset</button>
-      </div>
       <div>
          <input type="number" v-model="newValue" @change="setValue" />
       </div>
+      <div class="increment">
+         <button @click="increment">+</button>
+         <button @click="decrement">-</button>
+      </div>
+      <div class="reset"><button @click="reset">Reset</button></div>
    </div>
 </template>
 
 <script>
+import '../assets/styles/counter.css';
 import { mapState, mapActions } from 'vuex';
 
 export default {
